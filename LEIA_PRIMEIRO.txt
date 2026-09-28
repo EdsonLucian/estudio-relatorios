@@ -1,0 +1,46 @@
+﻿ESTÚDIO DE RELATÓRIOS — WINDOWS OFFLINE
+
+COMO ABRIR
+1. Clique com o botão direito no ZIP e escolha Extrair tudo.
+2. Guarde a pasta extraída em Documentos ou na Área de Trabalho.
+3. Abra ABRIR_RELATORIOS.cmd. Ele apenas abre app/index.html no navegador.
+   Você também pode abrir app/index.html diretamente com Microsoft Edge ou Chrome.
+4. Para criar um atalho, clique com o botão direito em ABRIR_RELATORIOS.cmd
+   e use Enviar para > Área de trabalho (criar atalho).
+
+Não abra o sistema de dentro do ZIP. Mantenha a pasta app junto ao arquivo de abertura.
+Não precisa instalar Python, Node, extensões ou executar como administrador.
+Use uma versão atual do Edge ou Chrome já instalada no computador.
+
+O QUE FUNCIONA SEM INTERNET
+Importação de Excel, CSV, TXT e PDF com texto selecionável; filtros e pesquisa
+de participantes; notas e presença; relatório anual; personalização da capa;
+troca de personagem; exportação em PDF e Word; preparação da cópia para e-mail.
+O envio do e-mail depende de conexão. PDFs escaneados precisam ser convertidos
+em texto antes da importação, como na versão online.
+
+COMO GUARDAR E TRANSFERIR OS DADOS
+Use Salvar backup para baixar um arquivo JSON com os campos, participantes e
+personalizações. Abra-o depois com Abrir backup. PDF e Word são exportações
+e não substituem esse backup para continuar trabalhando no sistema.
+O rascunho do navegador é opcional e pode desaparecer se você limpar os dados,
+mudar de navegador ou mover a pasta. Salve sempre um backup ao encerrar.
+Para trazer um relatório da versão online, salve o backup lá e abra-o aqui.
+Os dados não são sincronizados automaticamente entre as duas versões.
+
+COPIAR PARA E-MAIL
+Se o navegador não permitir a cópia automática de um arquivo local, use a opção
+de selecionar a composição e pressione Ctrl+C; cole no e-mail com Ctrl+V.
+Você também pode anexar o PDF gerado.
+
+TESTE ANUAL
+O arquivo Treinamentos_Anuais_Ficticios_2026.xlsx contém 436 inscrições fictícias.
+Importe-o em Participantes e escolha Relatório anual, ano 2026.
+
+Esta é uma cópia portátil da versão 13. Atualizações futuras precisam de um novo
+pacote. Preserve seus backups ao substituir a pasta.
+
+VERIFICAÇÃO
+Os componentes de importação e exportação foram testados com recursos locais.
+A abertura direta no Windows e a cópia para um cliente de e-mail ainda precisam
+ser verificadas no seu computador.
