@@ -1,0 +1,36 @@
+/* B2B: cores amostradas do guia fornecido; marca e personagem preservados. */
+.paper.b2b{--accent:#253072;--secondary:#f4922d;color:#091441}
+.paper.b2b.atlas .atlas-masthead,.paper.b2b.atlas .atlas-ribbon{background:#091441}
+.paper.b2b.atlas .atlas-ribbon{border-bottom-color:#f4922d}
+.paper.b2b.atlas .atlas-cover{background:linear-gradient(145deg,#fff 0%,#f2f4fa 63%,#e4eaf6 100%)}
+.paper.b2b.atlas .atlas-cover:after{background:#c4cee4}
+.paper.b2b .atlas-orbits,.paper.b2b .atlas-orbits:before,.paper.b2b .atlas-orbits:after{border-color:#25489e40}
+.paper.b2b .atlas-orbits i,.paper.b2b .atlas-orbits b{box-shadow:0 16px 38px #09144118}
+.paper.b2b .atlas-orbits i:nth-child(1){background:linear-gradient(145deg,#25489e,#253072)}
+.paper.b2b .atlas-orbits i:nth-child(2),.paper.b2b .atlas-orbits i:nth-child(3){background:#f4922d}
+.paper.b2b .atlas-orbits b{background:#091441}
+.paper.b2b.atlas h1,.paper.b2b.atlas h3,.paper.b2b.atlas .metric strong,.paper.b2b.atlas .analysis-block b,.paper.b2b.atlas .atlas-brand,.paper.b2b.atlas .atlas-edition{color:#253072}
+.paper.b2b.atlas .atlas-mark{color:#253072;border-color:#253072;background:#fff;box-shadow:0 8px 22px #09144118}
+.paper.b2b.atlas .atlas-edition span,.paper.b2b.atlas .atlas-cover-bottom>div:before,.paper.b2b.atlas .atlas-ribbon span:before{background:#f4922d;box-shadow:none}
+.paper.b2b.atlas .atlas-cover-bottom>div{border-color:#ccd5e7;box-shadow:0 10px 30px #0914410d}
+.paper.b2b.atlas .atlas-cover-bottom small,.paper.b2b.atlas .atlas-cover-bottom strong{color:#091441}
+.paper.b2b.atlas .atlas-body{background:linear-gradient(90deg,#fff 0%,#fff 94%,#f2f4fa 94%,#f2f4fa 100%)}
+.paper.b2b.atlas h3:after{background:linear-gradient(90deg,#aebbdc,#e4eaf6,transparent)}
+.paper.b2b.atlas .section-number{background:#253072;box-shadow:0 0 0 5px #25307212}
+.paper.b2b.atlas .metric{border-color:#ccd5e7!important;background:linear-gradient(145deg,#fff,#f2f4fa)!important;box-shadow:0 12px 35px #0914410d}
+.paper.b2b.atlas .metric:after{border-color:#25489e15}
+.paper.b2b.atlas .objective-block,.paper.b2b.atlas .recognition-card,.paper.b2b.atlas .analysis-block{border-color:#ccd5e7;border-left-color:#f4922d;background:#f5f7fc;box-shadow:none}
+.paper.b2b.atlas .team-report-card{border-color:#ccd5e7;border-top-color:#25489e;background:#f5f7fc}
+.paper.b2b.atlas .topic-grid li{border-color:#ccd5e7;background:#f5f7fc}
+.paper.b2b.atlas .topic-grid li:before{color:#25489e}
+.paper.b2b.atlas table{border-color:#ccd5e7}
+.paper.b2b.atlas table th{background:#253072}
+.paper.b2b.atlas table tbody tr:nth-child(even){background:#f2f4fa}
+.paper.b2b.atlas .atlas-deck,.paper.b2b.atlas .meta,.paper.b2b.atlas .metric span,.paper.b2b.atlas .atlas-body p,.paper.b2b.atlas .atlas-body td,.paper.b2b.atlas .atlas-body .empty,.paper.b2b.atlas .chart-scale,.paper.b2b.atlas .chart-column span,.paper.b2b.atlas .report-footer{color:#3c465e}
+.paper.b2b.atlas .category-strip span{color:#253072;background:#edf1fa}
+.paper.b2b.atlas .report-footer{border-color:#ccd5e7}
+.paper.b2b.atlas .results-chart{background:#f5f7fc;border-color:#ccd5e7;box-shadow:none}
+.paper.b2b.atlas .chart-plot{border-color:#ccd5e7;background:repeating-linear-gradient(to bottom,transparent 0,transparent 49px,#dce3f0 50px)}
+.paper.b2b.atlas .chart-column strong,.paper.b2b .annual-chart>div{color:#253072}
+.paper.b2b.atlas .chart-column i{box-shadow:none}
+.paper.b2b .annual-chart i{background:#25489e}

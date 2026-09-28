@@ -1,0 +1,50 @@
+/* Two structural alternatives sharing the official palettes. */
+.paper.atlas[data-model=executive] .signature-cover{border-left:6px solid var(--brand)}
+.paper.atlas[data-model=executive] .signature-intro{border-bottom:1px solid var(--edge);padding-bottom:30px}
+.paper.atlas[data-model=executive] .signature-title{font-size:38px;letter-spacing:-1px;max-width:95%}
+.paper.atlas[data-model=executive] .signature-visual{background:#edf0ee;border-left:4px solid var(--brand);margin:20px 0 0}
+.paper.atlas[data-model=executive] .signature-disc,.paper.atlas[data-model=executive] .signature-orbit{display:none}
+.paper.atlas[data-model=executive] .signature-fact{border-bottom:1px solid var(--edge);padding:17px 0}
+.paper.atlas[data-model=executive] .cover-scorecard{border-radius:0;background:var(--brand);color:#fff}
+.paper.atlas[data-model=executive] .cover-scorecard :is(strong,span){color:#fff}
+.paper.atlas[data-model=executive] .topic-grid{grid-template-columns:1fr}
+.paper.atlas[data-model=executive] .analysis-block{border-radius:0}
+.paper.atlas[data-model=magazine] .signature-intro{text-align:center;border-top:5px solid var(--warm);padding:30px 0}
+.paper.atlas[data-model=magazine] .signature-eyebrow{justify-content:center}
+.paper.atlas[data-model=magazine] .signature-title{font-size:48px;max-width:100%;text-align:center;letter-spacing:-2px}
+.paper.atlas[data-model=magazine] .signature-subtitle{margin-left:auto;margin-right:auto}
+.paper.atlas[data-model=magazine] .signature-stage{grid-template-columns:1fr 1fr}
+.paper.atlas[data-model=magazine] .signature-visual{background:var(--warm);border-radius:120px 120px 0 0;margin-top:15px}
+.paper.atlas[data-model=magazine] .signature-fact{border:0;padding:17px 0}
+.paper.atlas[data-model=magazine] .signature-index{font-size:22px;font-weight:700}
+.paper.atlas[data-model=magazine] .cover-scorecard{border-top:4px solid var(--brand);border-bottom:1px solid var(--edge);border-radius:0}
+.paper.atlas[data-model=magazine] .recognition-card{border-radius:0;border-left:4px solid var(--warm)}
+@media(max-width:600px){.paper.atlas:not(.email-capture)[data-model=magazine] .signature-title{font-size:34px}.paper.atlas:not(.email-capture)[data-model=executive] .signature-title{font-size:30px}}
+/* Em Foco: a magazine composition with its own cover and editorial rhythm. */
+.paper.atlas[data-model=magazine] .art-cover{padding:28px 34px 0;background:#fff;color:var(--brand)}
+.art-kicker{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--brand);padding:13px 0;font-size:8px;letter-spacing:1.5px;gap:16px}
+.art-masthead{font-size:clamp(50px,7vw,88px);font-weight:800;line-height:1.05;letter-spacing:-5px;border-bottom:5px solid var(--brand);padding:17px 0 20px;white-space:nowrap}.art-masthead>span{color:var(--warm)}
+.art-spread{display:grid;grid-template-columns:1.05fr 1fr;gap:24px;align-items:stretch;padding:24px 0 0}
+.art-story{padding-bottom:24px;min-width:0}.paper.atlas .art-edition{font-size:9px;letter-spacing:1.8px;color:var(--brand);font-weight:700;margin:0 0 14px}
+.paper.atlas .art-story h1{font-size:34px;line-height:1.05;letter-spacing:-1.3px;margin:0 0 18px;overflow-wrap:anywhere;text-align:left;color:var(--brand)}
+.paper.atlas .art-deck{font-size:12px;line-height:1.6;color:#5f5f5f;border-left:3px solid var(--warm);padding-left:12px;margin:0 0 25px}
+.art-details{border-top:1px solid #d3d2cf;padding-top:5px}.paper.atlas .art-details p{margin:14px 0;line-height:1.5}.art-details small{display:block;font-size:8px;letter-spacing:1.3px;color:#5f5f5f}.art-details b{display:block;font-size:12px;color:var(--brand)}
+.art-photo{min-height:365px;position:relative;background:var(--warm);overflow:hidden;border-radius:140px 140px 0 0;margin-top:12px}
+.art-photo img{position:absolute;bottom:28px;right:0;width:100%;height:calc(100% - 55px);object-fit:contain;object-position:center bottom;z-index:2}
+.art-photo-ring{position:absolute;border:1px solid var(--brand);border-radius:50%;width:120%;aspect-ratio:1;left:-11%;top:10%}.art-photo-type{position:absolute;left:12px;top:120px;font-size:90px;font-weight:800;letter-spacing:-8px;color:var(--brand);opacity:.16}
+.art-photo-caption{position:absolute;bottom:0;left:0;right:0;background:var(--brand);color:white;text-align:center;font-size:8px;letter-spacing:1.4px;padding:10px 2px;z-index:3}
+.art-cover-footer{display:flex;justify-content:space-between;gap:20px;border-top:1px solid var(--brand);padding:15px 0;font-size:8px;line-height:1.5}.art-cover-footer b{text-align:right}
+.art-stats{display:grid;grid-template-columns:1fr 1fr;margin:0 34px 18px;border-top:1px solid var(--brand);border-bottom:1px solid var(--brand)}
+.art-stats>div{padding:19px 18px;border-bottom:1px solid #d3d2cf}.art-stats>div:nth-child(2n){border-left:1px solid #d3d2cf}.art-stats>div:first-child{background:var(--brand);color:#fff}.art-stats small{display:block;font-size:9px;letter-spacing:.6px}.art-stats strong{display:block;font-size:34px;line-height:1.15;margin-top:12px;overflow-wrap:anywhere}
+.paper.atlas[data-model=magazine] .report-section{border-top:1px solid var(--brand);padding-top:24px;margin-top:28px;border-radius:0}
+.paper.atlas[data-model=magazine] .report-section h3{font-size:25px;letter-spacing:-.6px;align-items:baseline;border-bottom:0}
+.paper.atlas[data-model=magazine] .section-number{font-size:46px;background:none;color:var(--brand);font-weight:400;line-height:1;min-width:55px}
+.paper.atlas[data-model=magazine] .objective-block{border:0;border-left:5px solid var(--warm);padding:12px 20px;background:#fff}
+.paper.atlas[data-model=magazine] .objective-block p{font-size:18px;line-height:1.7;color:var(--brand)}
+.paper.atlas[data-model=magazine] .topic-grid{gap:0;counter-reset:topic}.paper.atlas[data-model=magazine] .topic-grid li{border-radius:0;border:0;border-bottom:1px solid #d3d2cf;background:#fff;padding:18px 15px}
+.paper.atlas[data-model=magazine] .recognition-card{padding:24px;background:#edf0ee;border-left:5px solid var(--warm)}
+.creator-signature{max-width:1150px;margin:24px auto 0;padding:26px 30px 32px;display:flex;justify-content:flex-start;align-items:center;gap:18px;border-top:2px solid #d61960;text-align:left;color:#5f5f5f}
+body[data-brand=b2b] .creator-signature{border-color:#253072}.creator-monogram{width:56px;height:56px;border-radius:50%;background:#d61960;color:white;display:grid;place-items:center;font-weight:700;font-size:21px;flex-shrink:0}body[data-brand=b2b] .creator-monogram{background:#253072}
+.creator-info{display:flex;flex-direction:column;gap:5px}.creator-info small{font-size:9px;letter-spacing:1.6px}.creator-info strong{font-size:23px;color:#d61960}body[data-brand=b2b] .creator-info strong{color:#253072}.creator-info a{font-size:13px;color:inherit;text-underline-offset:3px;overflow-wrap:anywhere}.developer-credit .creator-label{margin-left:auto;padding:0;border:0;font-size:9px;letter-spacing:1px;line-height:1.8;text-align:right}
+@media(max-width:600px){.paper.atlas:not(.email-capture) .art-cover{padding:20px 20px 0}.paper.atlas:not(.email-capture) .art-masthead{font-size:54px;letter-spacing:-3px}.paper.atlas:not(.email-capture) .art-spread{grid-template-columns:1fr;gap:0}.paper.atlas:not(.email-capture) .art-story h1{font-size:32px}.paper.atlas:not(.email-capture) .art-photo{height:320px;min-height:320px;max-width:300px;width:100%;justify-self:center}.paper.atlas:not(.email-capture) .art-stats{margin:0 20px 18px}.creator-signature{padding:22px 18px;flex-wrap:wrap}.developer-credit .creator-label{display:none}}
+.email-capture .art-masthead{font-size:88px}.email-capture .art-spread{grid-template-columns:1.05fr 1fr}.email-capture .art-story h1{font-size:34px}

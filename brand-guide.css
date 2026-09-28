@@ -1,0 +1,65 @@
+/* Valores RGB amostrados nas áreas sólidas das referências fornecidas. */
+:root{--rose:#d61960;--ink:#5f5f5f;--muted:#5f5f5f;--line:#d3d2cf;--bg:#edf0ee;--ui-soft:#ffffff}
+body[data-brand=b2b]{--rose:#253072;--ui-soft:#ffffff}
+.paper{--accent:#d61960;--secondary:#f4922d;--brand:#d61960;--deep:#830f2e;--bright:#d61960;--warm:#f4922d;--tint:#ffffff;--edge:#d3d2cf;--text:#5f5f5f;--muted-report:#5f5f5f}
+.paper.b2b{--accent:#253072;--secondary:#f4922d;--brand:#253072;--deep:#091441;--bright:#25489e;--warm:#f4922d;--tint:#ffffff;--edge:#d3d2cf;--text:#5f5f5f;--muted-report:#5f5f5f}
+/* As duas cores principais dividem os grandes planos Vero. */
+.paper.atlas .atlas-masthead{background:var(--brand)}
+.paper.atlas .atlas-scene{background:var(--warm);border:0}
+.paper.atlas.b2b .atlas-scene{background:var(--brand)}
+.paper.atlas .atlas-orbits,.paper.atlas .atlas-orbits:before,.paper.atlas .atlas-orbits:after{border-color:var(--brand)}
+.paper.atlas.b2b .atlas-orbits,.paper.atlas.b2b .atlas-orbits:before,.paper.atlas.b2b .atlas-orbits:after{border-color:var(--bright)}
+.paper.atlas .atlas-orbits i:nth-child(1){background:var(--bright)}
+.paper.atlas .atlas-orbits i:nth-child(3){background:#fdd206}
+.paper.atlas.b2b .atlas-orbits i:nth-child(3){background:var(--warm)}
+.paper.atlas .scene-caption{color:var(--deep)}
+.paper.atlas.b2b .scene-caption{color:#ffffff}
+.paper.atlas .atlas-cover-bottom{background:var(--brand)}
+.paper.atlas .atlas-cover-bottom>div{border:0}
+.paper.atlas .atlas-cover-bottom>div:nth-child(2){background:var(--warm)}
+.paper.atlas .atlas-cover-bottom small{opacity:1}
+.paper.atlas .atlas-cover-bottom>div:nth-child(2) small,.paper.atlas .atlas-cover-bottom>div:nth-child(2) strong{color:var(--deep)}
+.paper.atlas .atlas-ribbon{background:#ffffff;border-bottom:1px solid var(--edge)}
+.paper.atlas .metric{background:#ffffff!important}
+.paper.atlas .objective-block,.paper.atlas .analysis-block,.paper.atlas .recognition-card{background:#ffffff}
+.paper.atlas th{background:var(--brand)}
+.paper.atlas table tbody tr:nth-child(even){background:#edf0ee}
+.paper.atlas .category-strip span{background:#ffffff}
+.paper.atlas .timeline-list li:before{background:var(--brand)}
+.paper.atlas .atlas-mark{color:var(--brand);border-color:var(--brand);background:#ffffff;box-shadow:none}
+.paper .preview-cover{background:var(--brand)}
+.paper .preview-cover.compact{background:#ffffff;border-color:var(--brand)}
+.paper .preview-cover .cover-subtitle{color:#ffffff}
+.paper .preview-cover.compact h2,.paper .preview-cover.compact .kicker,.paper .preview-cover.compact .cover-subtitle{color:var(--deep)}
+.paper .report-footer,.paper .info span,.paper .meta{color:#5f5f5f}
+.paper .section-number{background:var(--brand)}
+.paper.atlas .section-number{background:none}
+/* Sem transparências/degradês nas superfícies de identidade. */
+.paper.atlas .atlas-cover,.paper.atlas .atlas-body,.paper.atlas .results-chart{background:#ffffff}
+.paper.atlas .chart-column i{box-shadow:none}
+.palette-preview i{border:0}
+.paper.atlas.b2b .atlas-cover-bottom>div:first-child{background:#091441}
+/* Indicadores, contexto e decisões têm composições próprias. */
+.paper.atlas .cover-scorecard{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.cover-scorecard>div:last-child strong{font-size:22px;letter-spacing:-.5px;line-height:1.35}
+.paper.atlas .metric:nth-child(3n+1){background:var(--brand)!important;border-color:var(--brand)!important}
+.paper.atlas .metric:nth-child(3n+1) strong,.paper.atlas .metric:nth-child(3n+1) span{color:#ffffff}
+.paper.atlas .metric:nth-child(3n+2){border:1px solid var(--edge)!important;border-top:4px solid var(--brand)!important}
+.paper.atlas .metric:nth-child(3n){border:1px solid var(--edge)!important;border-bottom:4px solid var(--warm)!important}
+.paper.atlas .analysis-context{border:1px solid var(--edge);border-radius:0;padding:18px 22px;background:#edf0ee}
+.paper.atlas .analysis-development{border:0;border-radius:14px 14px 0 14px;background:var(--brand);padding:24px}
+.paper.atlas .analysis-development b,.paper.atlas .analysis-development p{color:#ffffff}
+.paper.atlas .analysis-action{border:1px solid var(--warm);border-radius:0;padding:0 22px 18px}
+.paper.atlas .analysis-action>b{display:block;margin:0 -22px 16px;padding:14px 22px;background:var(--warm);color:var(--deep)}
+.paper.atlas .analysis-results{border:0;border-top:3px solid var(--brand);border-radius:0;padding:20px 0;background:#ffffff}
+.email-hd-pages{width:100%;max-width:720px;margin:20px auto!important}.email-hd-pages img{display:block;margin:0 auto!important;max-width:100%}
+@media(max-width:600px){.paper.atlas .cover-scorecard{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:22px}.paper.atlas .cover-scorecard>div:nth-child(2){border:0}}
+.email-capture.paper.atlas .cover-scorecard{grid-template-columns:repeat(4,minmax(0,1fr))}
+
+/* Match legacy table specificity so every table follows the selected identity. */
+.paper.atlas table th{background:var(--brand);color:#fff}
+#teamsDialog{width:min(960px,94vw);max-height:90vh;overflow:auto;border:1px solid #d3d2cf;border-radius:18px;padding:28px;color:#343434;background:#fff}#teamsDialog::backdrop{background:rgba(0,0,0,.38)}#teamsDialog .fields{margin:22px 0}#teamsDialog table{width:100%;border-collapse:collapse;margin:16px 0;font-size:13px}#teamsDialog th,#teamsDialog td{padding:12px;text-align:left;border-bottom:1px solid #d3d2cf}#teamsDialog th{background:#edf0ee}#teamsDialog p{line-height:1.6}#teamsDialog input[type=checkbox]{width:18px;height:18px}
+
+.developer-credit{display:flex;justify-content:center;padding:22px 24px 30px;color:#5f5f5f;font-size:12px;letter-spacing:.025em;text-align:center}.developer-credit strong{font-weight:700}.developer-credit span{border-top:1px solid #d3d2cf;padding:16px 28px 0}@media print{.developer-credit{display:none}}
+
+#downloadDialog{width:min(920px,94vw);max-height:90vh;overflow:auto;padding:28px;border:1px solid #d3d2cf;border-radius:18px;color:#343434}#downloadDialog::backdrop{background:#0006}#downloadDialog p{line-height:1.6;font-size:13px}.download-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:22px 0}.download-grid button{text-align:left;padding:18px;white-space:normal;border:1px solid #d3d2cf;border-radius:10px;background:#fff}.download-grid strong{display:block;font-size:15px;margin-bottom:9px}.download-grid span{display:block;font-size:12px;font-weight:400;line-height:1.5;color:#5f5f5f}#downloadStatus{font-weight:700}@media(max-width:650px){.download-grid{grid-template-columns:1fr 1fr}}@media(max-width:400px){.download-grid{grid-template-columns:1fr}}
