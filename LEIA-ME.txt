@@ -1,18 +1,5 @@
-ESTÚDIO DE RELATÓRIOS — ATUALIZAÇÃO COMPLETA 28/09/2026
+GALERIA PROFISSIONAL
+Os modelos em Personalizar agora mostram miniaturas da composição real do relatório, com as cores e o conteúdo atual. A galeria é atualizada ao abrir Personalizar e trocar a identidade.
 
-COMO ABRIR E PUBLICAR
-Extraia o ZIP. O arquivo index.html abre a interface no navegador; para usar todos os downloads e recursos de cópia, publique no GitHub Pages.
-Faça backup do preenchimento antes de atualizar. Envie TODOS os arquivos e subpastas para a raiz do repositório por Code > Add file > Upload files, confirme Commit changes, aguarde Actions ficar verde e use Ctrl+F5.
-
-NOVIDADES
-Identidade Vero/B2B na tela inicial; período em um único controle; carga horária em horas e minutos; quantidade de turmas de rechamado; totais de aprovados, ausentes e avaliações; galeria de modelos; personalização organizada; downloads agrupados; Excel formatado e Word editável com margens e tipografia definidas.
-
-DEFINIÇÕES
-Avaliações realizadas: registros com nota informada, incluindo zero. No anual, o total é de inscrições com avaliação, não necessariamente pessoas únicas.
-Rechamados: quantidade manual para o relatório atual, independente das turmas regulares; não cria automaticamente inscrições ou convocações.
-Carga horária anual: soma das edições identificadas, sem multiplicar pelos participantes.
-Backup editável JSON conserva os campos do sistema. Word é editável no Word; JSON para IA não substitui o backup.
-PDF/Word visual/HTML preservam o desenho como imagem. Word editável e XLSX têm diagramação própria. CSV/TSV/TXT/MD/JSON preservam conteúdo estruturado, sem recursos de design gráfico.
-
-VERIFICAÇÃO
-Testados: horários 2h30, 30min e importação; backup com novos campos e compatibilidade antiga; indicadores; dez combinações entre modelos e modos anual/treinamento; geração e reabertura do Excel.
+Extraia o ZIP e envie todo o conteúdo para a raiz do GitHub, confirmando Commit changes. Aguarde a publicação e atualize com Ctrl+F5.
+Demais recursos da atualização completa foram mantidos.
