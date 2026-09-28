@@ -1,0 +1,17 @@
+ESTÚDIO DE RELATÓRIOS — VERSÃO 30
+Fonte: versão 30 do sistema, commit 3c28344d603e312a0d4e0145a81316dc830009b0.
+
+ATUALIZAR NO GITHUB
+1. Salve o backup do relatório em edição.
+2. Extraia este ZIP. Abra a pasta onde está index.html.
+3. No repositório, abra Code > Add file > Upload files.
+4. Arraste TODO o conteúdo da pasta (arquivos e subpastas) para a raiz.
+5. Confirme a substituição com Commit changes.
+6. Aguarde Actions > pages build and deployment ficar verde.
+7. Abra seu site e pressione Ctrl+F5.
+
+Como reconhecer esta versão: botão Visualizar relatório no cabeçalho, painel Microsoft 365, pesquisa individual em destaque e cartões de download com a marca.
+O painel Microsoft 365 é assistido; não contém autenticação corporativa ou sincronização automática.
+
+Este pacote contém os mesmos recursos da última versão registrada, com identificação de versão nos endereços CSS/JS para atualizar o cache. Não altera o design.
+Não envie planilhas ou backups pessoais ao repositório público.
