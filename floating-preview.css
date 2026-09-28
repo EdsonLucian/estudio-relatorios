@@ -1,0 +1,8 @@
+
+/* Mantém o mesmo botão e seu evento de visualização, acessível durante a rolagem. */
+body>header #viewReport{position:fixed;right:max(24px,env(safe-area-inset-right));bottom:max(24px,env(safe-area-inset-bottom));z-index:90;display:inline-flex;align-items:center;justify-content:center;gap:10px;width:auto;max-width:calc(100vw - 32px);min-height:54px;padding:15px 23px;border-radius:999px;box-shadow:0 8px 28px #00000026;border:2px solid #fff;font-size:15px;line-height:1.3;white-space:normal;flex:none;background:var(--ui-brand);color:#fff}
+body>header #viewReport:hover{background:var(--ui-deep);color:#fff;box-shadow:0 10px 32px #00000033}
+body>header #viewReport:focus-visible{outline:3px solid var(--ui-deep);outline-offset:4px}
+body>main{padding-bottom:110px}body{scroll-padding-bottom:100px}
+@media(max-width:600px){body>header #viewReport{right:16px;bottom:max(16px,env(safe-area-inset-bottom));min-height:50px;padding:13px 18px;font-size:14px}body>main{padding-bottom:100px}}
+@media print{body>header #viewReport{display:none!important}}

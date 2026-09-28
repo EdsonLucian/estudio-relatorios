@@ -1,0 +1,27 @@
+
+/* Contraste explícito para impedir herança de cores entre cartões e estados. */
+body>header,body>main .editor{color:#5f5f5f}
+body>header button,.editor button,dialog button{color:#5f5f5f;background:#fff}
+body>header button:hover,.editor button:hover,dialog button:hover{color:var(--ui-deep);background:#edf0ee}
+body>header button.primary,.editor button.primary,dialog button.primary,body>header #viewReport{color:#fff;background:var(--ui-brand);border-color:var(--ui-brand)}
+body>header button.primary:hover,.editor button.primary:hover,dialog button.primary:hover,body>header #viewReport:hover{color:#fff;background:var(--ui-deep);border-color:var(--ui-deep)}
+body>header #downloadCenter,body>header #downloadCenter:hover{color:var(--ui-deep);background:#fff}
+.editor .tab:not(.active),.editor .tab:not(.active):hover{background:#fff;color:#5f5f5f}.editor .tab:not(.active) span{color:var(--ui-deep)}
+.editor>nav .tab.active,.editor>nav .tab.active:hover{background:var(--ui-brand);color:#fff;border-color:var(--ui-brand)}
+.editor>nav .tab.active span,.editor>nav .tab.active small{color:#fff;opacity:1}
+main>.intro h1,main>.intro p,main>.intro .eyebrow,main>.intro .demo-actions>span,main>.intro .demo-actions small{color:#fff;opacity:1}
+main>.intro .demo-actions button,main>.intro .demo-actions button:hover,main>.intro .demo-actions button span{background:#fff;color:var(--ui-deep);opacity:1}
+.editor input:not([type=checkbox]),.editor select,.editor textarea,dialog input:not([type=checkbox]),dialog select,dialog textarea{color:#5f5f5f;background:#fff;opacity:1}
+.editor input::placeholder,.editor textarea::placeholder,dialog input::placeholder,dialog textarea::placeholder{color:#5f5f5f;opacity:1}
+.editor select option,dialog select option{color:#5f5f5f;background:#fff}
+.editor .choice,.editor .choice span{color:#5f5f5f;background:#fff}
+.editor .choice.selected,.editor .choice.selected span{color:var(--ui-deep);background:#fff;font-weight:700}.editor .choice.selected{border:2px solid var(--ui-brand)}
+.editor input[type=checkbox]{accent-color:var(--ui-brand)}
+.editor .hint,.editor small,.editor .rule-box p,.editor .builder-start p,.editor .participant-import p,.editor .person label,.editor .search-intro p{color:#5f5f5f;opacity:1}
+.editor .section-head h2,.editor h3,.editor .choice-group legend,.editor .builder-start b,.editor .text-button,.editor .secondary,.editor .writing-tools button,.editor .search-intro small{color:var(--ui-deep)}
+.editor .ui-disclosure>summary,.ui-actions>summary{color:var(--ui-deep);background:#fff}.editor .ui-disclosure>summary small{color:#5f5f5f}
+.editor .file-picker{background:var(--ui-brand);color:#fff;border-color:var(--ui-brand)}
+body>header button:disabled,.editor button:disabled,dialog button:disabled{opacity:1!important;color:#5f5f5f!important;background:#edf0ee!important;border-color:#d3d2cf!important;cursor:not-allowed;box-shadow:none}
+.download-grid button,.download-grid button:hover{background:#fff;color:#5f5f5f}.download-grid button strong{color:var(--ui-deep)}.download-grid button small,.download-grid button p{color:#5f5f5f}.download-grid .format-mark i{color:#fff;background:var(--ui-brand)}.download-grid .format-mark small{color:var(--ui-deep)}
+.preview-controls .brand-switch button{color:#5f5f5f;background:#fff}.preview-controls .brand-switch button[aria-pressed=true]{color:#fff;background:var(--ui-brand)}
+body>header button:focus-visible,.editor button:focus-visible,.editor summary:focus-visible,.ui-actions>summary:focus-visible{outline:3px solid var(--ui-deep);outline-offset:3px}
